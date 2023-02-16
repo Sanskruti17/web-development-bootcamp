@@ -1,4 +1,4 @@
 const form = document.querySelector("#shelterForm");
 form.addEventListener("submit",function(e){
-    console.log("SUBMITTED!!")
+    console.log("SUBMITTED THE FORM");
 })
