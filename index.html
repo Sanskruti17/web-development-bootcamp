@@ -9,14 +9,14 @@
   <body>
     <h1>Form events</h1>
     <!--Data submitted inside a form will go to location shelter-->
-    <form action="/shelter" id="shelterForm">
-      <input type="text" id="userName" placeholder="USERNAME" />
-      <input type="text" id="tweet" placeholder="TWEET" />
+    <form action="/shelter" id="tweetForm">
+      <input type="text" name="userName" placeholder="USERNAME" />
+      <input type="text" name="tweet" placeholder="TWEET" />
       <button>Post</button>
     </form>
 
     <h2>Tweets:</h2>
-    <ul id="list"></ul>
+    <ul id="tweets"></ul>
     <script src="app.js"></script>
   </body>
 </html>
